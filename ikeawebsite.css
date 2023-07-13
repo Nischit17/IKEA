@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.body {
+  position: relative;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: #918888;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 2%;
+padding-left: 2%;
+}
+
+.logo {
+  color: #12131a;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 25px;
+}
+
+nav ul li a {
+  color: #12131a;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #918888;
+  transition: .3s;
+}
+
+button {
+  background: #12131a;
+  padding: 12px 28px;
+  color: white;
+  border: none;
+  border-radius: 30px;font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #918888;
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+header {
+  position: absolute;
+  width: 94%;
+  margin: 0 auto;
+  padding: 13px 0;
+  top: 40px;
+  right: 30px;
+  border-radius: 50px;
+  z-index: 2;
+  background: white;
+  box-shadow: 0 0 30px rgb(0 0 0 /8%);
+}
+
+.bg {
+  position: absolute;
+  background-image: url(bg.jpeg);
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.content h4 {
+  color: #12131a;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.content h1 {
+  color: #12131a;
+  font-size: 200px;
+  line-height: 180px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.content h3 {
+  color: #12131a;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  padding-left: 30px;
+}
+
+.btn1 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+}
+
+.btn1 a {
+  background: #12131a;
+  color: #918888;
+  padding: 5px 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work {
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 120px;
+  left: -25px;
+}
+
+.work a {
+  color: #12131a;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.work a:hover {
+  color: #918888;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.social {
+  position: absolute;
+  left: 43%;
+  bottom: 5px;
+}
+
+.social ul {
+  display: inline-flex;
+  margin: 30px auto;
+}
+
+.social ul li {
+  list-style: none;
+  margin: 0px 21px;
+}
+
+.social ul li i {
+  color: #12131a;
+  font-size: 26px;
+}
+
+.social ul li i:hover {
+  transform: scale(1.2);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.last {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+.last a {
+  color: #12131a;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
